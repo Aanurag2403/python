@@ -11,7 +11,7 @@ g for gun
 computer = random.choice([-1,0,1])
 
 # taking input
-youstr = input("enter your choice: ")
+youstr = input("enter your choice: ").lower()
 
 #taking input into numbers
 youdict = {"s":1,"w":-1,"g":0}
