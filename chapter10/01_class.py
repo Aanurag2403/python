@@ -4,9 +4,9 @@ class employee:
     language = "py" #this is a class attribute
     salary = 1200000
 
-hari = employee()
-hari.name = "hari" # this is a object/instance attribute
-print(hari.name,hari.salary,hari.language)
+h = employee()
+h.name = "hari" # this is a object/instance attribute
+print(h.name,h.salary,h.language)
 
 rohan = employee()
 rohan.name = "rohan ram"
